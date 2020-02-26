@@ -1,17 +1,9 @@
 ---
-
 - hosts: all
-
-gather_facts: no
-
- 
-
-tasks:
-
-- name: Check the date on the server.
-
-command: date
-
-- name: Check the ip ip on the server.
-
-command: ip add
+  gather_facts: no
+  
+  tasks:
+   - name: Check the date on the server.
+     command: date
+   - name: Check the ip ip on the server.
+     command: ip add

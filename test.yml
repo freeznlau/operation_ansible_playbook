@@ -1,5 +1,5 @@
 ---
-- hosts: php
+- hosts: php-162
   gather_facts: no
   
   tasks:
